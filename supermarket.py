@@ -26,13 +26,13 @@ from pyscipopt import Model, quicksum
 
 P = 7
 prods = range(P)
-c = {0: 0.31,  # lejia
-     1: 0.27,  # lavavaj_man
-     2: 0.29,  # lavavaj_lav
-     3: 0.33,  # sal
-     4: 0.22,  # abrillantador
-     5: 0.21,  # champu
-     6: 0.32}  # jabon_lav
+c = {0: 0.31,  # bleach
+     1: 0.27,  # dishwashing detergent
+     2: 0.29,  # dishwasher detergent
+     3: 0.33,  # salt
+     4: 0.22,  # rinse aid
+     5: 0.21,  # shampoo
+     6: 0.32}  # soap
 
 d = {0: 3,
      1: 2,
