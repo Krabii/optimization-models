@@ -51,7 +51,7 @@ d = {0: 3,
 
 K = 3.4
 
-m = Model("Supermarket")
+m = Model("Shopping cart")
 
 x = {}
 for p in prods:
